@@ -34,3 +34,5 @@ int main()
     memset(visited,false,sizeof(visited));
     dfs(si,sj);
 }
+
+// complexity : 0(V+E);
