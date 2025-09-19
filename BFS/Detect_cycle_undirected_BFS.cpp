@@ -10,7 +10,7 @@ void bfs(int src)
     queue<int> q;
     q.push(src);
     vis[src] = true;
-    while(!q.empty())
+    while(!q.empty())     
     {
         int par = q.front();
         q.pop();
